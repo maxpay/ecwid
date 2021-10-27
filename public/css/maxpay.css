@@ -1,0 +1,19 @@
+/* Custom styles for payment form page */
+
+/* Custom styles to center iframe */
+iframe {
+    margin: 0 auto;
+}
+
+/* Custom styles for spinner */
+#spinner-container {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#spinner-container img {
+    margin: 30px 0;
+    width: 100px;
+    height: 100px;
+}

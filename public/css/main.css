@@ -1,0 +1,8 @@
+/* Custom styles for app page */
+
+/* Custom styles to remove a-card box shadow and border */
+.a-card {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
