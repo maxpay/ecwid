@@ -7,6 +7,7 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <script src="https://d35z3p2poghz10.cloudfront.net/ecwid-sdk/js/1.2.5/ecwid-app.js"></script>
     <link rel="stylesheet" href="https://d35z3p2poghz10.cloudfront.net/ecwid-sdk/css/1.3.8/ecwid-app-ui.css"/>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/main.css"/>
 </head>
 <body>
@@ -33,7 +34,7 @@
                             <div class="payment-method__content">
                                 <div class="form-area">
                                     <div class="form-area__content">
-                                        <p>To start accepting payments, please enter Maxpay keys.</p>
+                                        <p>Maxpay accepts debit and credit cards and more than 150 different currencies. To start accepting payments, please enter Maxpay keys.</p>
                                     </div>
 
                                     <div class="columned">
@@ -78,7 +79,6 @@
                                                     </div>
 
                                                 </div>
-                                                <div class="inline-alert inline-alert--error">Maxpay accepts debit and credit cards and more than 150 different currencies.</div>
                                             </div>
                                         </div>
 
