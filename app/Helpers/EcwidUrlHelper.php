@@ -73,6 +73,6 @@ class EcwidUrlHelper
             route('cancel', [
                 'orderId' => $orderData->orderNumber,
                 'storeId' => $orderData->storeId,
-            ]);
+            ], true);
     }
 }
