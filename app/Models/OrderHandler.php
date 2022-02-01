@@ -20,7 +20,7 @@ class OrderHandler
     const ECWID_PAYMENT_STATUS_UNDEFINED = '';
     const ECWID_PAYMENT_STATUS_AWAITING_PAYMENT = 'AWAITING_PAYMENT';
     const ECWID_PAYMENT_STATUS_PAID = 'PAID';
-    const ECWID_PAYMENT_STATUS_CANCELLED = 'CANCELLED';
+    const ECWID_PAYMENT_STATUS_INCOMPLETE = 'INCOMPLETE';
     const ECWID_PAYMENT_STATUS_REFUNDED = 'REFUNDED';
     const ECWID_PAYMENT_STATUS_PARTIALLY_REFUNDED = 'PARTIALLY_REFUNDED';
 
@@ -113,7 +113,7 @@ class OrderHandler
             $status = self::ECWID_PAYMENT_STATUS_UNDEFINED;
         } else {
             // decline
-            $status = self::ECWID_PAYMENT_STATUS_CANCELLED;
+            $status = self::ECWID_PAYMENT_STATUS_INCOMPLETE;
         }
 
         $this->updateOrderStatus($orderData, $status);
