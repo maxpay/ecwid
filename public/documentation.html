@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Set Up Maxpay Payments To Ecwid Store</title>
+<meta name="description" content="Open a merchant account within Maxpay and install the payment solution for your Ecwid store to manage all the money flows online.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="canonical" href="https://ecwid.maxpay.com/documentation">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ecwid.maxpay.com/documentation">
+<meta property="og:image" content="img/blog_cover_1200x800.png">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark">
+		<a class="navbar-brand" href="https://maxpay.com">
+			<img src="img/logo.png">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="https://maxpay.com/pricing.html" target="_blank">Pricing</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://maxpay.com/payment-methods.html" target="_blank">Payments</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://maxpay.com/docs/" target="_blank">API</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://maxpay.com/contact.html" target="_blank">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://blog.maxpay.com/" target="_blank">Blog</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://support.maxpay.com/hc/en-us" target="_blank">Support</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="jumbotron top text-center background m-0 p-0">
+		<div class="d-flex justify-content-center">
+			<div class="main-background">
+				<h1 class="text-center pl-5 pr-5 pt-5">How To Set Up Maxpay Payments To Ecwid Store</h1>
+				<img src="img/blog_cover_1200x800.png" class="background">
+			</div>
+		</div>
+	</div>
+	<div class="jumbotron guide text-center ml-5 mr-5 pl-5 pr-5 pt-1 bg-white">
+		<h2 class="p-5">Steps To Install Maxpay Payment Solution To Ecwid Store</h2>
+		<ol class="text-left pl-5 pr-5">
+			<li class="step">Register at <a href="https://my.maxpay.com" target="_blank">Merchant Portal</a>.</li>
+			<li>Create a payment page <span class="source"><b>Source:</b> my.maxpay.com > Payment pages > Create new</span>.</li>
+			<li>Fill the required URLs.</span></li>
+			<div class="table-responsive">
+				<table class="table table-bordered table-sm">
+					<thead>
+						<tr>
+							<th>FIELD</th>
+							<th>URL VALUE</th>
+							<th>DESCRIPTION</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Website url</td>
+							<td><span class="source">https://my_store.com</span></td>
+							<td>Shopify's shop URL</td>
+						</tr>
+						<tr>
+							<td>Test success url</td>
+							<td><span class="source">https://ecwid.maxpay.com/success/</span></td>
+							<td>Test redirect url for successful payments</td>
+						</tr>
+						<tr>
+							<td>Success url</td>
+							<td><span class="source">https://ecwid.maxpay.com/success/</span></td>
+							<td>Live redirect url for successful payments</td>
+						</tr>
+						<tr>
+							<td>Test decline url</td>
+							<td><span class="source">https://ecwid.maxpay.com/error/</span></td>
+							<td>Test redirect url for declined payments</td>
+						</tr>
+						<tr>
+							<td>Decline url</td>
+							<td><span class="source">https://ecwid.maxpay.com/error/</span></td>
+							<td>Live redirect url for declined payments</td>
+						</tr>
+						<tr>
+							<td>Test callback url</td>
+							<td><span class="source">https://ecwid.maxpay.com/callback/</span></td>
+							<td>Test callback url for receiving the final response with status by Maxpay</td>
+						</tr>
+						<tr>
+							<td>Callback url</td>
+							<td><span class="source">https://ecwid.maxpay.com/callback/</span></td>
+							<td>Live callback url for receiving the final response with status by Maxpay</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<li>Activate a payment method/methods at Payment methods section.</li>
+			<li>Create and design a payment form at Payment froms section.</li>
+			<li>Set up the Maxpay's payment application from the Ecwid's store.</li>
+			<li>Enter the credentials from <span class="source"><b>Source:</b> my.maxpay.com > Payment pages > Create new > API keys section</span>.</li>
+			<li>Test the payment flow on your website.</li>
+		</ol>
+	</div>
+	<div class="jumbotron text-center footer" style="margin-bottom:0">
+		<ul class="nav justify-content-center">
+			<li class="nav-item">
+				<a class="nav-link link-footer" href="https://blog.maxpay.com/" target="_blank">Blog</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link link-footer" href="https://status.maxpay.com/" target="_blank">System status</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link link-footer" href="https://start.maxpay.com/" target="_blank">Start</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link link-footer" href="https://maxpay.com/pricing.html" target="_blank">Pricing</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link link-footer" href="https://maxpay.com/contact.html" target="_blank">Contact</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link link-footer" href="https://maxpay.com/privacy-notice.html" target="_blank">Privacy Notice</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link link-footer" href="https://maxpay.com/cookie-policy.html" target="_blank">Cookie Policy</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link link-footer" href="https://maxpay.com/terms.html" target="_blank">Terms</a>
+			</li>
+		</ul>
+	</div>
+	<p class="company m-0 p-3">Copyright © 2021 Maxpay Limited·Suite 1, Level 2, Fort Business Centre, Triq L-Intornjatur, Zone 1, Central Business District, Birkirkara CBD 1050, Malta</p>
+</body>
+</html>
