@@ -19,3 +19,7 @@ $router->get('/settings', 'SettingsController@index');
 $router->post('/success', 'CallbackController@return');
 
 $router->post('/webhook', 'WebhookController@index');
+
+$router->post('/cancel', [
+    'as' => 'cancel', 'uses' => 'CancelController@index'
+]);

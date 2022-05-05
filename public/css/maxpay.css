@@ -1,5 +1,9 @@
 /* Custom styles for payment form page */
 
+body {
+    background-color: #ECEEF0;
+}
+
 /* Custom styles to center iframe */
 iframe {
     margin: 0 auto;

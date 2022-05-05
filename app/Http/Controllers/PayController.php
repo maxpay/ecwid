@@ -60,6 +60,7 @@ class PayController extends Controller
                     ->buildButton($orderData->userEmail)
                     ->setUserInfo($userInfo)
                     ->setCustomProducts($customProducts)
+                    ->setBackUrl(EcwidUrlHelper::getCancelUrl($orderData))
                     ->buildFrame(),
             ];
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4a9232bdd783ed8836eb1a92e5fc87b",
+    "content-hash": "f667df0d432c495a6f473275067b20ea",
     "packages": [
         {
             "name": "brick/math",
@@ -2380,16 +2380,16 @@
         },
         {
             "name": "maxpay/hpp-client",
-            "version": "2.0.1",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
-                "url": "git@github.com:maxpay/php-hpp-client.git",
-                "reference": "ad65f3cafff60eaf44326774fea4effc1f111c7f"
+                "url": "https://github.com/maxpay/php-hpp-client.git",
+                "reference": "7ee77d30b1a161793f61a456ebd04af61e9db231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxpay/php-hpp-client/zipball/ad65f3cafff60eaf44326774fea4effc1f111c7f",
-                "reference": "ad65f3cafff60eaf44326774fea4effc1f111c7f",
+                "url": "https://api.github.com/repos/maxpay/php-hpp-client/zipball/7ee77d30b1a161793f61a456ebd04af61e9db231",
+                "reference": "7ee77d30b1a161793f61a456ebd04af61e9db231",
                 "shasum": ""
             },
             "require": {
@@ -2431,7 +2431,11 @@
                 "maxpay",
                 "psp"
             ],
-            "time": "2020-08-10T08:50:58+00:00"
+            "support": {
+                "issues": "https://github.com/maxpay/php-hpp-client/issues",
+                "source": "https://github.com/maxpay/php-hpp-client/tree/2.0.3"
+            },
+            "time": "2021-12-21T14:33:17+00:00"
         },
         {
             "name": "monolog/monolog",

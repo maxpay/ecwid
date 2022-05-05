@@ -83,6 +83,7 @@ var initialConfig = {
     private: {
         publicKey: "",
         privateKey: "",
+        installed: "yes"
     },
     public: {}
 };
