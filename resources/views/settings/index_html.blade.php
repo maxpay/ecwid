@@ -34,7 +34,7 @@
                             <div class="payment-method__content">
                                 <div class="form-area">
                                     <div class="form-area__content">
-                                        <p>Maxpay accepts debit and credit cards and more than 150 different currencies. To start accepting payments, please enter Maxpay keys.</p>
+                                        <p>Maxpay accepts debit and credit cards and more than 150 different currencies. Before implementing the configuration settings please contact our Maxpay team and send your submission <a href="https://maxpay.com/contact.html" target="_blank">here</a>. After your submission is reviewed, you can proceed with the account setup.</p>
                                     </div>
 
                                     <div class="columned">
